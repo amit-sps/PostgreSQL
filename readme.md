@@ -1,8 +1,6 @@
 # PostgreSQL
 
-## Basics Command
-
-### Database
+## Basics Commands
 
 <table style="width:100%;">
 <thead>
@@ -15,18 +13,6 @@
 <tr><td> DROP DATABASE db_name</td><td> Delete database</td></tr>
 <tr><td> \c  db_name</td><td> Connect/Select database</td></tr>
 <tr><td> \l </td><td>Print list of database</td></tr>
-</tbody>
-</table>
-
-### Table
-
-<table style="width:100%;">
-<thead>
-<tr>
-<th>Command/Syntax</th><th>Description</th>
-</tr>
-</thead>
-<tbody>
 <tr><td>CREATE TABLE table_name(<br>
     column1 datatype,<br>
     column2 datatype...<br>
@@ -46,6 +32,17 @@
 <tr>
 <td> INSERT INTO table_name (<br>
     column1,column2,column3,column4)<br>
-     VALUES (values1,values2,values3,values4);</td><td>Insert Data in table</td></tr>
+     VALUES (values1,values2,values3,values4);</td><td>Insert Data in table</td>
+</tr>
+<tr>
+<td>SELECT * FROM table_name WHERE CONDITION....</td><td>Read data from the table</td>
+</tr>
+<tr>
+<td>UPDATE table_name SET column_name=value WHERE CONDITION....</td><td>Update data of the table</td>
+</tr>
+<tr>
+<td>DELETE FROM table_name WHERE CONDITION....</td><td>Read data from the table</td>
+</tr>
+
 </tbody>
 </table>
