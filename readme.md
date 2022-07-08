@@ -4,7 +4,7 @@
 
 ### Database
 
-<table>
+<table style="width:100%;">
 <thead>
 <tr>
 <th>Command/Syntax</th><th>Description</th>
@@ -20,7 +20,7 @@
 
 ### Table
 
-<table>
+<table style="width:100%;">
 <thead>
 <tr>
 <th>Command</th><th>Description</th>
